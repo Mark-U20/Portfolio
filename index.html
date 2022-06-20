@@ -18,7 +18,7 @@
     <ul class="ulist">
         <li class="navlink"><a href="https://github.com/Mark-Ustby">GitHub</a></li>
         <li class="navlink"><a href="about.html">About</a></li>
-        <li class="navlink"><a href="contact.html">Contact</a></li>
+        <li class="navlink"><a href="#contact">Contact</a></li>
     </ul>
 </nav>
 
@@ -35,22 +35,29 @@
         <div id="project">
             <!-- first column in row -->
             <div id="container-left">
-                <div>
+                <div class="button-boxes">
                     <button class="buttons" id="button1" type="button">
                         Project 1
                     </button>
+                    <div class="project-paragraph">
+                        <p>
+                            This project focused on fixing semantic errors in the source code. This is imoprtant because it allows
+                            for the website to be more accessible to users through search enginges like google. This is because
+                            search engines favor websites that use semantic elements by putting them at the top of the search results leading to higher traffic.
+                        </p>
+                    </div>
                 </div>
-                <div>
+                <div class="button-boxes">
                     <button class="buttons" id="button2" type="button">
                         Project 2
                     </button>
                 </div>
-                <div>
+                <div class="button-boxes">
                     <button class="buttons" id="button3" type="button">
                         Project 3
                     </button>
                 </div>
-                <div>
+                <div class="button-boxes">
                     <button class="buttons" id="button4" type="button">
                         Project 4
                     </button>
@@ -59,14 +66,17 @@
             <!-- second column in row -->
             <div id="container-right">
                 <div>
-                    <h3>image slideshow</h3>
+                    <h3 id="imageIndex">Project 1</h3>
                     <img id="img" src="Assets\gifs\horiseon_page_project.gif" alt="image1">
                 </div>
-                
+
             </div>
 
 
     </section>
 </body>
+<footer>
+    <p id="contact">&copy; 2022 Mark Ustby -ustbymark@gmail.com</p>
+</footer>
 
 </html>
