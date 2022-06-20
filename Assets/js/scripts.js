@@ -1,9 +1,9 @@
 
 
 //project buttons
-//windows onload needs to be called before the page is loader
+//windows onload needs to be called before the page is loaded
 //becasuse otherwise the vars will be set to null since 
-//noing has been loaded yet, that is the same with the event listeners
+//nothing has been loaded yet, that is the same with the event listeners
 window.onload = function () {
 
 
