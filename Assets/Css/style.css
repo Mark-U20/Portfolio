@@ -58,7 +58,8 @@ a:hover{
 
 }
 
-button:hover{
+/* When the mouse is over the button element this class is attatched to it   */ 
+button:hover{ 
     background-color: #237533;
     border-radius: 5px;
 }
