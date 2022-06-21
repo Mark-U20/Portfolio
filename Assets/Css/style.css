@@ -146,26 +146,20 @@ nav ul li a{
     flex-direction: row;
     padding: 0 20px;
     box-shadow: 0px 0px 5px #000;
-    color:white;
-    padding-left: 40px;
-    /* padding-bottom: 1%; */
+    padding-left: 20px;
     padding-top: 10px;
 }
 
 #container-left{
     background-color: #1a2224;
     width: 100%;
-    /* position: fixed; */
-    top: 0;
-    left: 0;
-    z-index: 1;
     display: flex;
     flex-direction: column;
     padding: 0 20px;
     box-shadow: 0px 0px 5px #000;
     color:white;
-    padding-left: 40px;
-    padding-bottom: 0%;
+    padding-left: 20px;
+    padding-bottom: 20px;
     padding-top: 10px;
     margin: 10px;
     justify-content: center;
@@ -175,16 +169,12 @@ nav ul li a{
 #container-right{
     background-color: #1a2224;
     width: 100%;
-    top: 0;
-    left: 50%;
-    z-index: 1;
     display: flex;
     flex-direction: column;
     padding: 0 20px;
     box-shadow: 0px 0px 5px #000;
-    color:white;
-    padding-left: 40px;
-    padding-bottom: 0%;
+    padding-left: 20px;
+    padding-bottom: 20px;
     padding-top: 10px;
     margin: 10px;
 }
@@ -192,7 +182,6 @@ nav ul li a{
 .buttons{
     background-color: #238636;
     color: white;
-    /* padding: 10px; */
     border-radius: 5px;
     margin: 0 50px;
     font-size: 1.2em;
@@ -201,35 +190,20 @@ nav ul li a{
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     width: 100px;
-    /* height: 100px; */
-    /* transition: 0.3s; */
     cursor: pointer;
-    box-shadow: none;
-    text-shadow: none;
-    outline: none;
-    outline-style: none;
-    outline-color: none;
-    border-color: none;
-    box-shadow: none;
+    border: none;
+    
 }
-#button1{
-    border-color: none;
-}
+
 
 #container-left div{
     background-color: #1a2224;
     width: 100%;
-    /* position: fixed; */
-    top: 0;
-    left: 0;
-    z-index: 1;
     display: flex;
     flex-direction: column;
     padding: 0 20px;
     box-shadow: 0px 0px 5px #000;
-    color:white;
     padding-left: 40px;
     padding-bottom: 15%;
     padding-top: 10px;
@@ -250,7 +224,7 @@ nav ul li a{
     padding: 0 20px;
     box-shadow: 0px 0px 5px #000;
     color:white;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-bottom: 1%;
     padding-top: 10px;
     /* div follows scroll bar */
@@ -349,3 +323,12 @@ footer{
     box-shadow: none;
 }
 
+@media screen and (max-width: 800px) {
+    #project{
+        flex-direction: column;
+    }
+    .navlink{
+        margin: 3px;;
+    }
+
+}

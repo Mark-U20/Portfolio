@@ -20,26 +20,29 @@ window.onload = function () {
 
 
 
-
     //craetes an event listener for the button1, button2,..etc.
     button1.addEventListener("click", function () {
         //set slideshow to first image
         image.src = "Assets\\gifs\\horiseon_page_project.gif";
         imgindex.innerHTML = "Project 1";
+        img.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
     });
     button2.addEventListener("click", function () {
         //set slideshow to second image
         imgindex.innerHTML = "Project 2";
+        img.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
 
     });
     button3.addEventListener("click", function () {
         //set slideshow to third image
         imgindex.innerHTML = "Project 3";
+        img.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
 
     });
     button4.addEventListener("click", function () {
         //set slideshow to fourth image
         imgindex.innerHTML = "Project 4";
+        img.scrollIntoView({behavior: "smooth", block: "center", inline: "center"});
 
     });
     image.addEventListener("click", function () {
@@ -51,4 +54,6 @@ window.onload = function () {
     });
 
 
+
+    
 }
