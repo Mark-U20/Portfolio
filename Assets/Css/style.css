@@ -28,7 +28,6 @@ header{
     background-color: #1a2224;
     height: 50px;
     width: 100%;
-    /* position: fixed; */
     top: 0;
     left: 0;
     z-index: 1;
@@ -41,7 +40,6 @@ header{
     background-color: #1a2224;
     height: 50px;
     width: 100%;
-    /* position: fixed; */
     top: 0;
     left: 0;
     z-index: 1;
@@ -294,11 +292,6 @@ footer{
 }
 #about-me div{
     background-color: #1a2224;
-    width: none;
-    /* position: fixed; */
-    top: 0;
-    left: 0;
-    z-index: 1;
     display: flex;
     flex-direction: column;
     padding: 0 20px;
@@ -308,27 +301,11 @@ footer{
     padding-bottom: 1%;
     padding-top: 10px;
     margin: 10px;
-    justify-content: center;
     align-items: center;
 }
 #about-me div h3{
     font-size: 1.5em;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    /* transition: 0.3s; */
-    box-shadow: none;
-    text-shadow: none;
-    outline: none;
-    outline-style: none;
-    outline-color: none;
-    border-color: none;
-    box-shadow: none;
+   
 }
 
 @media screen and (max-width: 800px) {
